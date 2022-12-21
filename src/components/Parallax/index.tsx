@@ -1,4 +1,3 @@
-import React, { FC } from 'react'
 import {
 	CustomValueType,
 	motion,
@@ -6,6 +5,8 @@ import {
 	MotionValue,
 	useTransform,
 } from 'framer-motion'
+import React, { FC } from 'react'
+
 import styles from '../Parallax/index.module.css'
 
 type ParallaxType =

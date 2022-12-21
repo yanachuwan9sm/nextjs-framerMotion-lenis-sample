@@ -1,5 +1,6 @@
 import { useScroll } from 'framer-motion'
 import React, { useRef } from 'react'
+
 import AboutCard from '../AboutCard'
 import styles from '../Recruit/index.module.css'
 

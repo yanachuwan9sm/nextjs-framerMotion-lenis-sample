@@ -1,3 +1,5 @@
+import useResizeObserver from '@react-hook/resize-observer'
+import { useTransform, useSpring, motion, useScroll } from 'framer-motion'
 import React, {
 	MutableRefObject,
 	useCallback,
@@ -6,10 +8,9 @@ import React, {
 	useState,
 } from 'react'
 
-import { useTransform, useSpring, motion, useScroll } from 'framer-motion'
 
 import styles from '../SmoothScroll/index.module.css'
-import useResizeObserver from '@react-hook/resize-observer'
+
 
 interface SmoothScroll {
 	children: React.ReactNode
@@ -32,7 +33,7 @@ const usePageHeight = (target: MutableRefObject<null>) => {
 		)
 		resizeObserver.observe(target.current as any)
 		return () => resizeObserver.disconnect()
-	}, [target])
+	}, [resizeCallback, target])
 
 	return pageHeight
 }

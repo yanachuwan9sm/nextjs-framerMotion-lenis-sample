@@ -1,12 +1,14 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import Layout from '../components/Layout/Layout'
 
-import styles from '../styles/Home.module.css'
+
 import Header from '../components/Header'
+import Layout from '../components/Layout/Layout'
 import PageTransition from '../components/PageTransition'
 import useSmoothScroll from '../hooks/use-smooth-scroll'
+import styles from '../styles/Home.module.css'
+
+import type { AppProps } from 'next/app'
 
 export default function App({ Component, pageProps }: AppProps) {
 	useSmoothScroll()

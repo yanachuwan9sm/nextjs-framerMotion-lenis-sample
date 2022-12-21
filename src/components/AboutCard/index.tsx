@@ -1,7 +1,8 @@
-import React, { FC } from 'react'
 import { motion, MotionValue, useTransform } from 'framer-motion'
-import NextImage from '../NextImage'
+import React, { FC } from 'react'
+
 import styles from '../AboutCard/index.module.css'
+import NextImage from '../NextImage'
 import NextImageWrapper from '../NextImageWrapper'
 
 type AboutCardProps = {

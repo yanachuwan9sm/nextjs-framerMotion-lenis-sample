@@ -1,9 +1,10 @@
+import { motion } from 'framer-motion'
 import { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+
 import styles from '../../styles/Home.module.css'
-import { motion } from 'framer-motion'
 
 const Contact: NextPage = () => {
 	return (
