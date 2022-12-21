@@ -1,0 +1,12 @@
+.container {
+	position: relative;
+	aspect-ratio: .7/1;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.parallax_container {
+	inset: 0px;
+	position: absolute;
+}

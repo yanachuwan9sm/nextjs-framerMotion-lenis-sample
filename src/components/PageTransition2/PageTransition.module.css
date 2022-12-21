@@ -1,0 +1,18 @@
+.transition_container {
+	z-index: 1;
+	overflow: hidden;
+}
+
+.transition_container::after {
+	content: "";
+	display: block;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgb(209, 81, 81);
+	z-index: -1;
+}

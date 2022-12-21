@@ -1,0 +1,25 @@
+.section {
+	overflow: visible;
+	height: min-content;
+	position: relative;
+	padding-bottom: 150px;
+}
+
+.top {
+	align-self: flex-start;
+	position: sticky;
+	height: 70vh;
+	top: 30%;
+	gap: 40px;
+}
+
+.bottom {
+	position: relative;
+	width: 100%;
+}
+
+.headline {
+	font-size: 8vw;
+	margin: 0;
+	text-align: center
+}

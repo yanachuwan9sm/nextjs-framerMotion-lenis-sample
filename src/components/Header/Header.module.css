@@ -1,0 +1,24 @@
+.header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	color: #fff;
+}
+
+.header_wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4rem;
+}
+
+.header_headline {
+	font-size: 2rem;
+}
+
+.nav {
+	display: flex;
+	gap: 20px;
+}

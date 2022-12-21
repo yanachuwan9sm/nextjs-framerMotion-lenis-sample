@@ -1,0 +1,22 @@
+.main {
+	margin: 1rem auto;
+	padding: 8rem 0;
+	max-width: 960px;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	place-content: center;
+}
+
+.headline {
+	font-size: 8vw;
+	margin: 0;
+	text-align: center
+}
+
+.text {
+	font-size: 2vw;
+	line-height: 1.2;
+}
