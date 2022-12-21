@@ -4,7 +4,7 @@ import { FC } from 'react'
 import styles from '../HeroCard/index.module.css'
 import NextImage from '../NextImage'
 import NextImageWrapper from '../NextImageWrapper'
-import {Parallax} from '../Parallax'
+import Parallax from '../Parallax'
 
 type HeroCardProps = {
 	scrollYProgress: MotionValue<number>
